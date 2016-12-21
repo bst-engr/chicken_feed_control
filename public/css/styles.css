@@ -1,0 +1,36 @@
+#wrapper-login > #page-wrapper {margin:0;}
+.datepicker,
+.ui-autocomplete,
+.bootstrap-timepicker-widget { 
+    z-index: 99999;
+}
+.form-error {
+    border-color: red; 
+}
+.form-error-text {
+    color: red;
+    margin: 0 !important;
+    font-weight: normal !important;
+}
+
+.bs-standard-modal input {
+	width: 60px;
+}
+
+.bs-standard-modal .modal-dialog{
+	width: 100%; overflow-y: scroll; height: 75%;
+}
+
+.standard_model_button {
+	position:absolute;
+	z-index: -1;
+}
+.dataTables_wrapper > div{margin:0;}
+.modal-dialog { max-height: 450px;
+    overflow-y: scroll;
+   /* width: 700px;*/}
+    .form-horizontal .control-label {text-align: left;}
+.nav.nav-fourth-level.collapse.in a {
+    padding-left: 75px;
+}
+.nav.nav-fourth-level.collapse.in{height: auto;}
